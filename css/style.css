@@ -3,6 +3,7 @@
     --segundario: #e0700e;
     --terceario: #eabccd;
     --blanco: #FFF;
+    --amarillo: #2bff14;
     --fuente: "Bebas Neue", sans-serif;;      
 }
 * {
@@ -15,16 +16,18 @@ html, body{
     font-size: 1.2rem;
     /* padding: 35px; */
 }
-h1, h2,h3 {
+h1, h2, h3 {
     font-family: var(--fuente);
     text-align: center;
-
 }
 h1 {
     padding-top: 50px;
+    color: var(--amarillo);
 }
 h2 {
     margin-top: 6px;
+    margin-bottom: 30px;
+    color: var(--amarillo);
 }
 h3 {
     padding-bottom: 50px;
@@ -34,11 +37,12 @@ p {
 }
 span {
     font-size: 15px;
+    color: var(--segundario);
 }
 a {
     text-decoration: none;
     text-align: center;
-    background-color: var(--terceario);
+    background-color: var(--amarillo);
     padding: 3px;
     color: var(--fondo);
     border-radius: 7px;
@@ -65,6 +69,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;    
 }
+
 .tres__columnas {
     display: flex;
     text-align: center;
@@ -72,7 +77,7 @@ nav {
     margin: 80px;   
 }
 footer {
-    background-color: var(--blanco);
+    background-color: var(--amarillo);
     width: 100%;
     height: 30px;
     color: var(--fondo);
@@ -83,11 +88,10 @@ footer {
 .contenedor__form {
     max-width: 400px;
     margin: 0 auto;
-    
     background-color: var(--segundario);
     color: var(--fondo);
     margin-top: 50px;
-    border-radius: 20px;    
+    border-radius: 20px;   
 }
 .centrar {
     margin-left: 60px;
@@ -96,3 +100,14 @@ footer {
 .campos {
     margin: 8px;
 } 
+/* Maqueta */
+.contenedor_maqueta {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 30px;   
+}
+.maquetas {
+    width: 400px;
+    height: 600px;
+}
