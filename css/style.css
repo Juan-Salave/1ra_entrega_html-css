@@ -1,113 +1,38 @@
 :root {
     --fondo: #21232a;
-    --segundario: #e0700e;
-    --terceario: #eabccd;
     --blanco: #FFF;
-    --amarillo: #2bff14;
+
     --fuente: "Bebas Neue", sans-serif;;      
 }
-* {
-    margin: 0;
-    padding: 0;
-}
-html, body{
+
+/* html, body{
     background-color: var(--fondo);
     color: var(--blanco);
     font-size: 1.2rem;
-    /* padding: 35px; */
-}
-h1, h2, h3 {
-    font-family: var(--fuente);
-    text-align: center;
-}
-h1 {
-    padding-top: 50px;
-    color: var(--amarillo);
-}
-h2 {
-    margin-top: 6px;
-    margin-bottom: 30px;
-    color: var(--amarillo);
-}
-h3 {
-    padding-bottom: 50px;
-}
-p {
-    margin: 20px;
-}
+} */
+
 span {
     font-size: 15px;
-    color: var(--segundario);
-}
-a {
-    text-decoration: none;
-    text-align: center;
-    background-color: var(--amarillo);
-    padding: 3px;
-    color: var(--fondo);
-    border-radius: 7px;
+    background-color: var(--fondo);
+    color: var(--blanco);
+    border-radius: 4px;
 }
 header {
      display: flex;
      height: 50px;
      justify-content: center;
 }
-nav {
-    background-color: var(--segundario);
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly ;
-}
-.img {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50%;
-    position: relative;
-}
-.contenedor {
-    max-width: 1200px;
-    margin: 0 auto;    
-}
-
-.tres__columnas {
-    display: flex;
-    text-align: center;
-    padding: 10px;
-    margin: 80px;   
-}
 footer {
-    background-color: var(--amarillo);
+    background-color: var(--fondo);
     width: 100%;
     height: 30px;
     color: var(--fondo);
-    text-align: center;
 }
-/* Contacto */
-
-.contenedor__form {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: var(--segundario);
-    color: var(--fondo);
-    margin-top: 50px;
-    border-radius: 20px;   
+.none {
+    text-decoration: none;
 }
-.centrar {
-    margin-left: 60px;
-    padding: 30px;
-}  
-.campos {
-    margin: 8px;
-} 
-/* Maqueta */
-.contenedor_maqueta {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    padding-top: 30px;   
-}
-.maquetas {
-    width: 400px;
-    height: 600px;
+.fondo {
+    background-color: var(--fondo);
+    color: var(--blanco);
+    border-radius: 10px;
 }
